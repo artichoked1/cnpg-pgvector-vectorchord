@@ -1,4 +1,4 @@
-FROM ghcr.io/tensorchord/cloudnative-vectorchord:18-1.1.1
+FROM ghcr.io/tensorchord/cloudnative-vectorchord:16-1.1.1
 
 ARG CNPG_TAG=18
 ARG PGVECTORS_TAG=v0.2.1

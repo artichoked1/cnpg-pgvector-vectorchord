@@ -2,13 +2,13 @@ name: Build and publish Docker image to GHCR
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 env:
   IMAGE_NAME: cnpg-pgvector-vectorchord
   REGISTRY: ghcr.io
-  TAG: 18-migration-vectors-0.2.1
+  TAG: 16-migration-vectors-0.2.1
 
 jobs:
   build-and-push:
