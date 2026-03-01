@@ -8,7 +8,7 @@ on:
 env:
   IMAGE_NAME: cnpg-pgvector-vectorchord
   REGISTRY: ghcr.io
-  TAG: 17-migration
+  TAG: 17-migration-vectors-0.2.0
 
 jobs:
   build-and-push:
