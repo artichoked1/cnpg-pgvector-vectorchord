@@ -1,7 +1,7 @@
-FROM ghcr.io/tensorchord/cloudnative-vectorchord:16-1.1.1
+FROM ghcr.io/tensorchord/cloudnative-vectorchord:17-1.1.1
 
-ARG CNPG_TAG=16
-ARG PGVECTORS_TAG=v0.2.1
+ARG CNPG_TAG=17
+ARG PGVECTORS_TAG=v0.4.0
 ARG TARGETARCH
 
 USER root
